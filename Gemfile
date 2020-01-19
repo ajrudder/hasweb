@@ -27,6 +27,17 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'jquery-rails'
+gem 'popper_js', '~> 1.16'
+gem 'bootstrap', '~> 4.4', '>= 4.4.1'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
+
+gem 'simple_form', '~> 5.0', '>= 5.0.1'
+
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
